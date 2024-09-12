@@ -1,0 +1,2112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+.body{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+  margin-top: -80px !important;
+}
+
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+/* ==============================================
+NAVBAR
+============================================== */
+
+
+
+
+/* Group 163599 */
+
+.container-fluid{
+  background-color: white !important;
+  border-radius: 10px;
+  /* padding-bottom: 80px; */
+}
+.navbar{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 12px;
+  color: black;
+  font-weight: 600;
+  width: 95%;
+  height: 70px;
+  margin: 0 auto;
+  top: 20px;
+  background-color: white !important;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+.navbar svg{
+  width: 90px;
+}
+
+.navbar .active{
+  color: #C33131 !important;
+}
+
+.navbar-collapse{
+  justify-content: center !important;
+  margin: 0 auto !important;
+}
+
+.call-btn{
+  background-color: #C33131;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 600;
+  height: 70px;
+  width: 220px;
+}
+
+.contact-btn i{
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.contact-btn .icon{
+  height: 50px;
+  width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================
+HERO
+============================================== */
+
+.hero-section {
+  display: flex;
+  height: 90vh; /* Full viewport height */
+  flex-direction: row;
+}
+
+.left-half, .right-half {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-half {
+  background-color: black;
+  color: white;
+  padding: 10px 70px ;
+  position: relative;
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-heading {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4cqh;
+  line-height: 85px;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.hero-description {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  max-width: 590px;
+}
+
+.hero-button-stats {
+  margin-top: 20px;
+}
+
+.hero-stats {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 50px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+}
+
+.stat-image {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.stat-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-bold {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+}
+
+.stat-subtext {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #FFFFFF;
+}
+
+.hero-button {
+  display: flex;
+  align-items: center;
+  width: 170px;
+  padding: 16px 20px;
+  background-color: #C33131;
+  border-radius: 999px;
+  color: #FFFFFF;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-button img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Right side image styling */
+.right-half {
+  background-color: #f5f5f5;
+}
+
+.right-half img {
+  max-width: 100%;
+  height: 90vh;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column; /* Stack the sections vertically */
+    height: auto; /* Allow the height to adjust based on content */
+  }
+
+  .left-half, .right-half {
+    width: 100%; /* Full width for stacked sections */
+    height: auto; /* Adjust height based on content */
+  }
+
+  .right-half img {
+    max-width: auto;
+    height: 100%;
+    
+  }
+
+  .hero-heading {
+    font-size: 2.5rem; /* Adjusted for better readability */
+    line-height: 50px;
+    margin-top: 130px;
+  }
+
+  .content-wrapperv{
+    padding-bottom: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================
+HERO  CARD
+============================================== */
+
+/* Container for the cards */
+.hero-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Gap between cards */
+  padding: 20px;
+  flex-wrap: wrap;
+  margin-top: -100px;
+}
+
+/* Individual card styling */
+.hero-card {
+  position: relative;
+  width: 250px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  background: #FFFFFF;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Icon styling */
+.card-icon {
+  position: absolute;
+  top: -30px; /* Adjust based on icon size */
+  background: #C33131;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+}
+
+.card-icon svg {
+  width: 40px; /* Adjust size of icon */
+  height: 40px;
+}
+
+/* Card content styling */
+.card-content {
+  margin-top: 50px; /* Space for the icon */
+  text-align: center;
+}
+
+.card-title {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #C33131;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #040404;
+  margin-bottom: 20px;
+}
+
+.card-button {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #040404;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Responsive styling */
+@media (max-width: 1200px) {
+  .hero-card-container {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-card-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-card {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-card {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .card-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .card-description {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .card-button {
+    font-size: 13px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================
+                  Agence SECTION
+============================================== */
+
+
+/* Left Section Styles */
+.agence-section{
+  margin-top: 100px;
+}
+
+.left-section img{
+  width: auto;
+  height: 400px;
+  border-radius: 15px;
+  z-index: 11 !important;
+  margin-top: -100px;
+}
+
+.dot-img{
+  position: relative;
+  top: -10px;
+  left: 200px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0 !important;
+}
+
+.analytics{
+  position: relative;
+  top: -150px;
+  left: 180px;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
+
+/* Text container */
+.text-container {
+  /* position: relative; */
+  padding: 20px;
+  max-width: 100%;
+}
+
+/* Title styles */
+.title {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #040404;
+  /* leading-trim and text-edge are draft CSS properties, so they may not be supported in all browsers */
+
+}
+
+/* Description styles */
+.description {
+  margin-top: 20px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 28px;
+  color: #040404;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .title, .description {
+      width: 100%;
+      left: 0;
+      top: auto;
+  }
+
+  .title {
+      font-size: 36px;
+      line-height: 40px;
+  }
+
+  .description {
+      font-size: 16px;
+      line-height: 28px;
+  }
+}
+
+
+
+/* Rectangle styles */
+.rectangle {
+  display: flex;
+  box-sizing: border-box;
+  border: 2px solid #E1E1E1;
+  border-radius: 10px;
+  width: 400px; 
+  height: 80px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+
+/* Text styles inside rectangle */
+.text-10-plus {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #040404;
+  padding: 0 20px;
+}
+
+.text-recognition {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  color: #040404;
+}
+
+/* Frame styles */
+.frame {
+  width: 50px;
+  height: 50px;
+  color: #C33131; /* Example background color, adjust as needed */
+  /* If you need a border or specific design, you can add it here */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .rectangle {
+      width: 80%;
+      height: auto;
+      padding: 10px;
+      top: 10%;
+  }
+
+  .text-10-plus {
+      font-size: 30px;
+      line-height: 36px;
+  }
+
+  .text-recognition {
+      font-size: 18px;
+      line-height: 22px;
+  }
+
+  .frame {
+      width: 50px;
+      height: 50px;
+      top: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  .title{
+    font-size: 25px;
+  }
+  .rectangle {
+      width: 100%;
+      height: 70px;
+      top: 5%;
+  }
+
+  .text-10-plus {
+      font-size: 24px;
+      line-height: 30px;
+  }
+
+  .text-recognition {
+      font-size: 14px;
+      line-height: 20px;
+  }
+
+  .frame svg{
+      width: 40px;
+      height: 40px;
+      top: 50%;
+  }
+
+  .analytics svg{
+    position: relative;
+    top: 80px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .dot-img{
+    position: relative;
+    top: -50px;
+    right: -20px;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================== */
+/*                SERVICES SECTION          */
+/* ======================================== */
+
+.service {
+  position: relative;
+  top: 220px;
+  background-color: #C33131;
+  width: 95%;
+  height: 600px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.head {
+  position: relative;
+  top: -200px;
+  height: 400px;
+  border-radius: 15px;
+  background-image: url('public/static/img/i-need-you-all-see-this-presentation-shot-team-businesspeople-gathered-around-laptop-office 1.png');
+  background-size: cover;
+  background-color: black;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 100px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.801);
+}
+
+.head::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.644);
+  z-index: 0;
+  border-radius: 15px;
+}
+
+.approche-title {
+  position: relative;
+  top: -100px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  justify-content: center;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+
+.icon {
+  position: relative;
+  top: 150px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #C33131;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.head h2 {
+  position: relative;
+  top: 180px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .service {
+    height: 550px;
+  }
+
+  .head {
+    height: 350px;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 992px) {
+  .service {
+    height: 500px;
+  }
+
+  .head {
+    top: -180px;
+    font-size: 26px;
+  }
+
+  .approche-title {
+    top: -90px;
+    font-size: 18px;
+  }
+
+  .icon {
+    top: 140px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .head h2 {
+    top: 170px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service {
+    height: 450px;
+  }
+
+  .head {
+    top: -160px;
+    font-size: 24px;
+  }
+
+  .approche-title {
+    top: -80px;
+    font-size: 16px;
+  }
+
+  .icon {
+    top: 130px;
+    width: 45px;
+    height: 45px;
+  }
+
+  .head h2 {
+    top: 160px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .service {
+    height: 500px;
+  }
+
+  .head {
+    top: -140px;
+    font-size: 22px;
+  }
+
+  .approche-title {
+    top: -70px;
+    font-size: 14px;
+  }
+
+  .icon {
+    top: 120px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .head h2 {
+    top: 150px;
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================
+                  ApprocheCard
+============================================== */ 
+
+.approche-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px; /* Gap between cards */
+  padding: 20px;
+  flex-wrap: wrap;
+  margin-top: -50px;
+}
+
+.approche-card-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px; /* Gap between cards */
+  padding: 20px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.card {
+  /* position: relative; */
+  top: 100px;
+  width: 260px; /* Adjust width as needed */
+  height: 320px; /* Adjust height as needed */
+  background: #FFFFFF;
+  box-shadow: 1px 1px 80px rgba(0, 0, 0, 0.096);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border: none;
+}
+
+.approche-card-title {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #C33131;
+  background-color: white;
+  margin-bottom: 10px;
+  border: 2px solid #C33131;
+  padding: 5px;
+  border-radius: 20px;
+  width: 150px;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+
+.approche-card-icon {
+  position: relative;
+  top: -30px;
+  background: #FEE799;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05);
+}
+
+.approche-card-heading {
+  text-align: center;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.approche-card-desc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .card {
+    width: 260px;
+    height: 300px;
+  }
+
+  .approche-card-title {
+    font-size: 15px;
+    width: 140px;
+  }
+
+  .approche-card-icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .approche-card-heading {
+    font-size: 15px;
+  }
+
+  .approche-card-desc {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 992px) {
+  .card {
+    width: 180px;
+    height: 280px;
+  }
+
+  .approche-card-title {
+    font-size: 14px;
+    width: 130px;
+  }
+
+  .approche-card-icon {
+    width: 65px;
+    height: 65px;
+  }
+
+  .approche-card-heading {
+    font-size: 14px;
+  }
+
+  .approche-card-desc {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    margin-top: 100px;
+    width: 150px;
+    height: 260px;
+  }
+
+  .approche-card-title {
+    font-size: 13px;
+    width: 120px;
+  }
+
+  .approche-card-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .approche-card-heading {
+    font-size: 13px;
+  }
+
+  .approche-card-desc {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .approche-card-container{
+    margin-top: 10px;
+  }
+  .card {
+    width: 230px;
+    height: 240px;
+    margin: 0;
+  }
+
+  .approche-card-title {
+    font-size: 12px;
+    width: 110px;
+  }
+
+  .approche-card-icon {
+    width: 65px;
+    height: 65px;
+  }
+
+  .approche-card-heading {
+    font-size: 14px;
+  }
+
+  .approche-card-desc {
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================
+                  COMMENT SECTION
+============================================== */
+
+.comment {
+  position: relative;
+  top: 10rem; /* Adjusted for better positioning */
+  width: 95%;
+  max-width: 1200px; /* Added max-width for large screens */
+  background-color: #000000;
+  height: 76vh; /* Adjusted for flexible height */
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-bottom: 10rem; /* Adjusted for better spacing */
+  padding: 20px; /* Added padding for inner spacing */
+  box-sizing: border-box;
+  margin-bottom: 200px;
+}
+
+.comment-title h2 {
+  padding-top: 3rem; /* Adjusted for better spacing */
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.5rem; /* Adjusted for better readability */
+  color: white;
+}
+
+.comment-desc {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: white;
+  margin: 20px 0; /* Spacing between text and other elements */
+}
+
+.arrow {
+  width: 55px;
+  height: 55px;
+  color: #C33131;
+  border: 2px solid #C33131;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  cursor: pointer; /* Added cursor pointer for interactivity */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow:hover {
+  background-color: #C33131;
+  color: white;
+}
+
+.arrow a {
+  text-decoration: none;
+  color: #C33131;
+}
+
+.arrow a:hover {
+  color: white;
+}
+
+.comments {
+  display: flex;
+  flex-wrap: wrap; /* Ensures items wrap on smaller screens */
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjusted for responsive spacing */
+}
+
+.comment-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 10px; */
+  max-width: 400px; /* Ensures maximum width */
+  height: auto; /* Allows for flexible height */
+  color: white;
+  background-color: #0E0E0E;
+  border-radius: 15px;
+  border-bottom: 5px solid #C33131;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.comment-section h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.comment-profile img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background-color: white;
+  border: 5px solid #ffffff;
+  margin-bottom: 15px;
+}
+
+.comment-rating-checked {
+  color: #C33131;
+  padding: 0 8px 0 0;
+}
+
+.comment-section-desc {
+  line-height: 1.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+  text-align: left;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .comment {
+    top: 8rem; /* Adjusted for better positioning */
+    height: 80vh; /* Adjusted for flexible height */
+  }
+  .comment-section {
+    max-width: 350px;
+  }
+
+  .comment-title h2 {
+    font-size: 2rem;
+  }
+
+  .comment-desc {
+    font-size: 1.1rem;
+  }
+}
+/* Responsive adjustments */
+@media (max-width: 1189px) {
+  .comment {
+    top: 8rem; /* Adjusted for better positioning */
+    height: 78vh; /* Adjusted for flexible height */
+  }
+  .comment-section {
+    max-width: 350px;
+  }
+
+  .comment-title h2 {
+    font-size: 2rem;
+  }
+
+  .comment-desc {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .comment-section {
+    max-width: 320px;
+  }
+
+  .comment-title h2 {
+    font-size: 1.75rem;
+  }
+
+  .comment-desc {
+    font-size: 1rem;
+  }
+
+  .comment-profile img {
+    width: 7rem;
+    height: 7rem;
+  }
+  .comments{
+    padding-bottom: 100px;
+  }
+  .comment-card-section {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 80px rgba(0, 0, 0, 0.096);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 10px !important;
+}
+}
+
+@media (max-width: 768px) {
+  .comments {
+    gap: 15px; 
+    height: auto;
+  }
+
+  .comment-section {
+    max-width: 280px;
+  }
+
+  .comment-title h2 {
+    font-size: 1.5rem;
+  }
+
+  .comment-desc {
+    font-size: 0.9rem;
+  }
+
+  .comment-profile img {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .arrow {
+    width: 45px;
+    height: 45px;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .comment {
+    width: 100%;
+    top: 15rem; /* Adjusted for smaller screens */
+    margin-bottom: 7rem; /* Adjusted margin-bottom for smaller screens */
+  
+  }
+
+  .comment-section {
+    max-width: 240px;
+    padding: 15px; /* Adjusted padding for smaller screens */
+  }
+
+  .comment-title h2 {
+    font-size: 1.25rem;
+  }
+
+  .comment-desc {
+    font-size: 0.85rem;
+  }
+
+  .comment-profile img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .comment {
+    top: 12rem; /* Adjusted for smaller screens */
+    margin-bottom: 5rem; /* Adjusted margin-bottom for smaller screens */
+  }
+
+  .comment-section {
+    max-width: 220px;
+  }
+
+  .comment-title h2 {
+    font-size: 1.1rem;
+  }
+
+  .comment-desc {
+    font-size: 0.8rem;
+  }
+
+  .comment-profile img {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .arrow {
+    width: 35px;
+    height: 35px;
+    font-size: 0.875rem;
+  }
+}
+
+
+/* ==============================================
+                  COMMENT CARD
+============================================== */
+
+.comment-card-section {
+  width: 100%;
+  max-width: 220px; /* Ensures card doesn't exceed this width */
+  height: auto; /* Allows for flexible height */
+  background: #FFFFFF;
+  box-shadow: 1px 1px 80px rgba(0, 0, 0, 0.096);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px; /* Adjusted padding */
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+
+.comment-card h2 {
+  font-weight: 800;
+}
+
+@media (max-width: 476px) {
+  .comment-card-section {
+    width: 100%;
+    max-width: 220px;
+    height: auto; /* Allows for flexible height */
+    background: #FFFFFF;
+    box-shadow: 1px 1px 80px rgba(0, 0, 0, 0.096);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px; /* Adjusted padding */
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  /* .comment-card{
+    width: 50px;
+  } */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+==============================================
+                  RAISONS SECTION
+============================================== */
+
+.raisons {
+  margin-top: 100px; 
+  padding: 0 15px;
+}
+
+.raisons-title {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2rem; /* Adjusted for responsiveness */
+  color: #000000;
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.raisons img {
+  width: 100%;
+  max-width: 400px; /* Ensures image doesn't exceed this width */
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: block; /* Centers the image within the container */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.raisons-content {
+  margin: 0 auto; /* Centers content */
+  padding: 0 15px;
+}
+
+.raisons-content h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem; /* Adjusted for responsiveness */
+  color: #000000;
+}
+
+.raisons-content p {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem; /* Adjusted for responsiveness */
+  color: #000000;
+  line-height: 1.5rem; /* Improved readability */
+  margin-bottom: 20px; /* Space between paragraphs */
+}
+
+.count-num {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 3rem; /* Adjusted for responsiveness */
+  color: white;
+  -webkit-text-stroke: 2px #C33131;
+  text-align: center; /* Centers the number within its column */
+}
+
+.discover-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.discover-btn {
+  width: 170px;
+  padding: 16px 20px;
+  background-color: #C33131;
+  border-radius: 999px;
+  color: #FFFFFF;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 800;
+  font-size: 0.8rem; /* Adjusted for readability */
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.discover-btn i {
+  margin-left: 8px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablet and smaller screens */
+@media (max-width: 768px) {
+  .raisons {
+    margin-top: 50px;
+  }
+
+  .raisons-title {
+    font-size: 1.5rem;
+  }
+
+  .raisons-content h2 {
+    font-size: 1.25rem;
+  }
+
+  .raisons-content p {
+    font-size: 0.9rem;
+  }
+
+  .count-num {
+    font-size: 2.5rem;
+  }
+
+  .discover-btn {
+    width: 150px;
+    font-size: 0.9rem;
+  }
+
+  .discover-btn-container {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+}
+
+/* Tablet and smaller screens */
+@media (max-width: 990px) {
+  .raisons {
+    margin-top: 300px !important;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 576px) {
+  .container{
+    width: 100%;
+  }
+  .raisons-title {
+    font-size: 1.5rem;
+    margin-top: 250px;
+  }
+
+  .raisons-content h2 {
+    font-size: 1rem;
+  }
+
+  .raisons-content p {
+    font-size: 0.85rem;
+    width: 100%;
+  }
+
+  .count-num {
+    font-size: 2rem;
+    padding-right: 100px;
+  }
+
+  .discover-btn {
+    width: 180px;
+    font-size: 0.8rem;
+  }
+
+  .discover-btn-container {
+    justify-content: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================
+                  ACCORDION SECTION
+============================================== */ 
+
+.accordion {
+  position: relative;
+  top: 100px;
+  width: 95%;
+  min-height: 60vh;
+  margin: 0 auto;
+  background-color: #000000;
+  border-radius: 30px;
+  color: white;
+  padding-bottom: 50px; /* Added padding to ensure black background continues */
+}
+
+.accordion-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.accordion-content h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+
+.accordion-content p {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: white;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.accordion-item {
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.397);
+  border-radius: 10px;
+  overflow: hidden; /* Ensure content is contained within the border */
+}
+
+.accordion-header {
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-header.active {
+  color: #C33131;
+}
+
+.accordion-content {
+  padding: 0px 20px 10px; /* Adjusted padding for better spacing */
+  font-size: 14px;
+  
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.accordion-content p {
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .accordion-content {
+    width: 100%; /* Adjust content width for smaller screens */
+  }
+
+  .accordion-header {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  .accordion-content p {
+    font-size: 14px;
+  }
+
+  .accordion-content {
+    padding: 0px 15px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .accordion{
+    width: 100%;
+    margin: 0;
+  }
+  /* .accordion-content {
+    width: 100%;
+  } */
+
+  .accordion-header {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  .accordion-content p {
+    font-size: 12px;
+  }
+
+  .accordion-content {
+    padding: 0px 10px 8px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================
+                  LOGO SLIDER
+==============================================	 */
+
+@keyframes slides {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 30px 0;
+  white-space: nowrap;
+  position: relative;
+  margin-top: 10rem;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  content: '';
+  width: 250px;
+  height: 100%;
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+}
+
+.logo_items {
+  display: inline-block;
+  animation: 50s slides infinite linear;
+}
+
+.logos:hover .logo_items {
+  animation-play-state: paused;
+}
+
+.logo_items img {
+  width: 100px;
+  margin-right: 50px;
+}
+
+/* Responsive Styles */
+
+/* Large screens (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .logo_items img {
+    width: 120px;
+    margin-right: 60px;
+  }
+
+  .logos {
+    padding: 40px 0;
+  }
+}
+
+/* Medium screens (tablets, 992px and up) */
+@media (max-width: 1199.98px) {
+  .logo_items img {
+    width: 100px;
+    margin-right: 40px;
+  }
+
+  .logos {
+    padding: 35px 0;
+  }
+
+  .logo_items {
+    animation-duration: 40s; /* Speed up animation */
+  }
+}
+
+/* Small screens (landscape phones, 768px and up) */
+@media (max-width: 991.98px) {
+  .logo_items img {
+    width: 80px;
+    margin-right: 30px;
+  }
+
+  .logos {
+    padding: 30px 0;
+  }
+
+  .logo_items {
+    animation-duration: 30s; /* Speed up animation */
+  }
+}
+
+/* Extra small screens (portrait phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .logo_items img {
+    width: 60px;
+    margin-right: 20px;
+  }
+
+  .logos {
+    padding: 20px 0;
+  }
+
+  .logo_items {
+    animation-duration: 20s; /* Speed up animation */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================
+                  BLOG SECTION
+============================================== */
+
+.block-section {
+  padding-bottom: 100px;
+}
+
+.blog-title h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.blog-img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  margin-top: 50px;
+  background: #E1E1E1;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blog-detail-title h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.read-more-btn button {
+  color: #000000;
+  background-color: white;
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  height: 35px;
+  width: 130px;
+  margin-top: 50px;
+  border: 1px solid #C33131;
+}
+
+.date-comment {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+/* Responsive Styles */
+
+/* Large screens (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .blog-title h2 {
+    font-size: 40px;
+  }
+}
+
+/* Medium screens (tablets, 992px and up) */
+@media (max-width: 1199.98px) {
+  .blog-title h2 {
+    font-size: 35px;
+  }
+
+  .blog-img {
+    height: 130px;
+  }
+
+  .blog-detail-title h2 {
+    font-size: 16px;
+  }
+
+  .read-more-btn button {
+    font-size: 13px;
+    height: 30px;
+    width: 120px;
+  }
+
+  .date-comment {
+    font-size: 9px;
+  }
+}
+
+/* Small screens (landscape phones, 768px and up) */
+@media (max-width: 991.98px) {
+  .col-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .blog-title h2 {
+    font-size: 30px;
+  }
+
+  .blog-img {
+    height: 120px;
+  }
+
+  .blog-detail-title h2 {
+    font-size: 14px;
+  }
+
+  .read-more-btn button {
+    font-size: 12px;
+    height: 28px;
+    width: 110px;
+  }
+
+  .date-comment {
+    font-size: 8px;
+  }
+}
+
+/* Extra small screens (portrait phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+  .block-section{
+    width: 100%;
+  }
+  .col-3 {
+    flex: 0 0 100%;
+    max-width: 50%;
+    margin-bottom: 30px;
+  }
+
+  .blog-title h2 {
+    font-size: 28px;
+  }
+
+  .blog-img {
+    height: 100px;
+  }
+
+  .blog-detail-title h2 {
+    font-size: 14px;
+  }
+
+  .read-more-btn button {
+    font-size: 11px;
+    height: 26px;
+    width: 100px;
+  }
+
+  .date-comment {
+    font-size: 8px;
+  }
+
+}
+
+
+@media (max-width: 767.98px) {
+  .comment {
+    width: 95%;
+    height: auto;
+    margin: 0;
+  }
+
+  .comment-card{
+    margin: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================
+                  FOOTER SECTION
+==============================================  */
+
+.footer {
+  background-color: #000000;
+  color: white;
+  padding: 50px 0;
+}
+
+.footer-logo svg{
+  width: 200px;
+  height: auto;
+  background-color: #a5a5a50c;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.footer-logo-content h2{
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+.footer-logo-content p{
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+
+.footer-contact{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.footer-contact-middle h2{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer-service1 p{
+  font-size: 12px;
+}
+
+.footer-service1 h2{
+  font-size: 17px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.footer-service1 i{
+  color: #C33131;
+}
+
+
+.obtenir-btn button{
+  color: #ffffff;
+  background-color: #C33131;
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  height: 42px;
+  width: 130px;
+  border: 1px solid #C33131;
+  
+}
+
+
+.obtenir-btn{
+  padding-bottom: 12px;
+}
+
+
+.footer-social-icon i{
+  font-size: 18px;
+  color: #C33131;
+  margin-right: 15px;
+}
+
+
+.footer2{
+  font-size: 12px;
+}
+
+
+.footer2 a{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
