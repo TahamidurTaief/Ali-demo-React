@@ -33,7 +33,7 @@ function Hero() {
           </div>
         </div>
         <div className="right-half">
-          <img src="public/static/img/i-need-you-all-see-this-presentation-shot-team-businesspeople-gathered-around-laptop-office 1.png" alt="Right Side" />
+          <img src="static/img/i-need-you-all-see-this-presentation-shot-team-businesspeople-gathered-around-laptop-office 1.png" alt="Right Side" />
         </div>
       </div>
 
