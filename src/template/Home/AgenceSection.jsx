@@ -297,7 +297,7 @@ function AgenceSection() {
 
             </div>
             <img
-              src="https://dynaimage.cdn.cnn.com/cnn/w_768,h_1024,c_scale/https%3A%2F%2Fdynaimage.cdn.cnn.com%2Fcnn%2Fx_980%2Cy_0%2Cw_1261%2Ch_1681%2Cc_crop%2Fhttps%253A%252F%252Fstamp.static.cnn.io%252F5f98a3aac48d9a002096215e%252F190708110908-01-bill-gates-file.jpg"
+              src="static/img/cheerful-black-manager-with-digital-tablet-walking-by-office-building 1.png"
               alt=""
             />
 

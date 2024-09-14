@@ -11,7 +11,7 @@ function RaisonsSection() {
                 <div className="row">
                     <div className="col-md-5">
                         <h2 className="raisons-title">03 Raisons de choisir <span style={{color:"#C33131"}}>Média Intelligence</span></h2>
-                        <img src="public/static/img/medium-shot-male-flight-attendant-posing 1.png" alt="" />
+                        <img src="static/img/medium-shot-male-flight-attendant-posing 1.png" alt="" />
                     </div>
 
 
